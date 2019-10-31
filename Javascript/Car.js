@@ -5,7 +5,7 @@ class Car {
     this.driver = driver;
     this.passengers;
   }
-  printDataCar() {
+  printDriverData() {
     console.log(this.driver);
   }
 }
