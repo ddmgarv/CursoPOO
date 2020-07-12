@@ -12,6 +12,7 @@ class UberPool extends Car {
     this.model = model;
   }
 }
+
 class UberBlack extends Car {
   constructor(license, driver, typeCarAccepted, seatsMaterial) {
     super(license, driver);
@@ -19,6 +20,7 @@ class UberBlack extends Car {
     this.seatsMaterial = seatsMaterial;
   }
 }
+
 class UberVan extends Car {
   constructor(license, driver, typeCarAccepted, seatsMaterial) {
     super(license, driver);
